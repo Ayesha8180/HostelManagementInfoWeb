@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.form{
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(to top, rgba(209, 68, 36, 0.8)50%,rgba(181, 107, 94, 0.8)50%);
+    position: absolute;
+    top: 145px;
+    left: 530px;
+    transform: translate(0%,-5%);
+    border-radius: 40px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 500px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 28px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 2px;
+    padding: 8px;
+}
